@@ -5,7 +5,7 @@ def cow_counter
   cows = cows + 2
   counter += 1
 end
-puts cows
+return cows
 end
 
 moose = 542
