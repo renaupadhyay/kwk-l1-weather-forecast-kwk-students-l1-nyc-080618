@@ -55,6 +55,8 @@ end
   
 end
 
+current_weather
+
 #4. Write a method that takes in the weather hash as an argument. 
 # You'll want to use the each method to iterate over the hash and print out
 # `The city is New York.` `The description is Partly Cloudy.` `The temperature is 66.3.`
