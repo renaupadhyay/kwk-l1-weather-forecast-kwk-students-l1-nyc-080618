@@ -44,6 +44,7 @@ weather = {
 
 return "The weather in #{weather[:city]} is #{weather[:description]}. The temperature is #{weather[:temperature_farenheit]} "
 end
+
 current_weather
 
 
