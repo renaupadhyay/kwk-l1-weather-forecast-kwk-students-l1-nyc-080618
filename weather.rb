@@ -39,14 +39,16 @@ def current_weather
   weather= {}
   weather["New York"]= 84
   
-  puts weather["New York"]
-  
-   descirption{}
+   description{}
    description["New York"]= "sunny"
    
-weather_hash= {}
-  weather_hash["New York"]= 84
-  weather_hash[84]= "Sunny"
+description.each do |place, description|
+  puts "The weather in #{place} is #{description}. "
+end
+
+weather.each do |place,temp|
+  puts "the temperature is #{temp}."
+end
   
 end
 #4. Write a method that takes in the weather hash as an argument. 
