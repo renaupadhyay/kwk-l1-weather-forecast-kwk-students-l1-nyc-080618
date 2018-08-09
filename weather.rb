@@ -55,7 +55,7 @@ end
   
 end
 
-current_weather
+current_weather("New York")
 
 #4. Write a method that takes in the weather hash as an argument. 
 # You'll want to use the each method to iterate over the hash and print out
