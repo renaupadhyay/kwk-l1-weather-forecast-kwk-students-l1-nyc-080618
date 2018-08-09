@@ -8,4 +8,10 @@ end
 puts cows
 end
 
-cow_counter
+moose = 542
+
+if moose < 100
+  puts "we have alot of cows"
+  elsif
+  puts "we have alot of moose"
+end 
