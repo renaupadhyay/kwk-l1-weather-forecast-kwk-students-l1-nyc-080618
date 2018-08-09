@@ -8,3 +8,4 @@ end
 puts cows
 end
 
+cow_counter
