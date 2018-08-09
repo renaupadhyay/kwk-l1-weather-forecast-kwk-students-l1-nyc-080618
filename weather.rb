@@ -34,8 +34,16 @@ description
   
 
 # 3. Using the methods above and string interpolation, update the method below so that it returns a string that describes the current weather - for example: "The weather in New York is Partly Cloudy. The temperature is 66.1 degrees Farenheit." HINT: the method should RETURN the string, not print it to the terminal. 
+
 def current_weather
+  weather= {}
+  weather["New York"]= 84
   
+  puts weather["New York"]
+  
+   descirption{}
+   description["New York"]= "sunny"
+   
 weather_hash= {}
   weather_hash["New York"]= 84
   weather_hash[84]= "Sunny"
