@@ -10,7 +10,7 @@ end
 
 moose = 542
 
-if moose < 100
+if moose < cow_counter
   puts "we have alot of cows"
   elsif
   puts "we have alot of moose"
