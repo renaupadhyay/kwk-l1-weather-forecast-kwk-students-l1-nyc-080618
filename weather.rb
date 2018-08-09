@@ -27,7 +27,7 @@ def description
   weather= {}
   weather["New York"]= "sunny"
   
-  puts weather
+  puts weather["New York"]
   
 end
 description
