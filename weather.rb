@@ -42,7 +42,7 @@ weather = {
 	:temperature_farenheit => 66.3
 }
 
-puts "Ther weather in #{weather[:city]} is #{weather[:description]}. The temperature is #{weather[temperature_farenheit]} "
+puts "Ther weather in #{weather[:city]} is #{weather[:description]}. The temperature is #{weather[:temperature_farenheit]} "
 end
 current_weather
 
