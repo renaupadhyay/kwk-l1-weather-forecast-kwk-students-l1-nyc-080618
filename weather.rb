@@ -37,7 +37,9 @@ description
 def current_weather
   
 weather_hash= {}
-
+  weather_hash["New York"]= 84
+  weather_has[84]= "Sunny"
+  
 
 weather_hash
 puts "The weather in "
