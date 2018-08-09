@@ -11,7 +11,7 @@ def location
   weather= {}
   weather["New York"]= 84
   
-  puts weather
+  puts weather["New York"]
   
 end
 location
