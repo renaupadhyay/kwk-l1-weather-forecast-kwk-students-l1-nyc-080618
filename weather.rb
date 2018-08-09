@@ -8,9 +8,10 @@
 
 # 1. Complete the method below called location, that accepts a hash called weather as an argument so that it returns the value of city from the weather hash. 
 
-  weather= {"New York"=>84, "Chicago"=>82}
+  weather= {}
+  weather["New York"]= 84
   
-puts weather["New York"]
+  puts weather
   
 	
 
