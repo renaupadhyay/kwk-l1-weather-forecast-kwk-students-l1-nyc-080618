@@ -35,27 +35,7 @@ description
 
 # 3. Using the methods above and string interpolation, update the method below so that it returns a string that describes the current weather - for example: "The weather in New York is Partly Cloudy. The temperature is 66.1 degrees Farenheit." HINT: the method should RETURN the string, not print it to the terminal. 
 
-def current_weather
-  weather= {}
-  weather["New York"]= 84
-  weather ["LA"]= 90
-  
-   description{}
-   description["New York"]= "Sunny"
-   description["LA"]= "Very Sunny"
-   
-description.each do |place, description|
-  puts "The weather in #{place} is #{description}. "
-end
 
-
-weather.each do |place,temp|
-  puts "the temperature is #{temp}."
-end
-  
-end
-
-current_weather
 
 #4. Write a method that takes in the weather hash as an argument. 
 # You'll want to use the each method to iterate over the hash and print out
