@@ -3,7 +3,7 @@ def cow_counter
   cows = 20
   while counter < 20
   cows = cows +2
-  counter +=2
+  counter +=1
 end 
 end
 
